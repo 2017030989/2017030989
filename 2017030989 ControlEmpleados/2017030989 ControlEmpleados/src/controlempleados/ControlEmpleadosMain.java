@@ -12,8 +12,7 @@ public class ControlEmpleadosMain
         int numEmpleado, sueldoBase, nivel, comision, ventas=0, o;
         String nombre, domicilio;
         ControlEmpleados Aux = new ControlEmpleados();
-        
-        System.out.println("Menu");
+        do{System.out.println("Menu");
         System.out.println("Selecciona opcion: ");
         System.out.println("[1] Capturar Info del Vendedor");
         System.out.println("[2] Capturar Pago");
@@ -71,8 +70,11 @@ public class ControlEmpleadosMain
          
                 break;
         }
+        }while(o!=3);
+        
+        }
          
          
          
-    }
-}
+        }
+
